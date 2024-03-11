@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            overflow-x: hidden
+        }
+        html { /* body won't work ¯\_(ツ)_/¯ */
+            scroll-snap-type: y mandatory;
+        }
+        section {
+            height: 100vh;
+            width: 100vw;
+            scroll-snap-align: start;
+        }
+        img {
+            width: auto;
+            height: 100vh;
+        }
+    </style>
+    <section>
+        <div class="juxtapose">
+            <img data-label="Before" data-credit="Calvin" src="https://raw.githubusercontent.com/heagan01/heagan01.github.io/main/images/before1 (Medium).jpg" />
+            <img data-label="After" data-credit="Calvin & Heagan" src="https://raw.githubusercontent.com/heagan01/heagan01.github.io/main/images/after1 (Medium).jpg" />
+        </div>
+    </section>
+    <section>
+        <div class="juxtapose">
+            <img data-label="Before" style="width: auto; height: auto;"  data-credit="Calvin" src="https://github.com/heagan01/heagan01.github.io/blob/main/images/before4 (Medium).jpg?raw=true" />
+            <img data-label="After" style="width: auto; height: auto;"  data-credit="Calvin & Heagan" src="https://github.com/heagan01/heagan01.github.io/blob/main/images/after4 (Medium).jpg?raw=true" />
+        </div>
+    </section>
+    <br/>
+    <section>
+        <div class="juxtapose">
+            <img data-label="Before" style="width: auto; height: auto;"  data-credit="Calvin" src="https://github.com/heagan01/heagan01.github.io/blob/main/images/before3 (Medium).jpg?raw=true" />
+            <img data-label="After" style="width: auto; height: auto;"  data-credit="Calvin & Heagan" src="https://github.com/heagan01/heagan01.github.io/blob/main/images/after3 (Medium).jpg?raw=true" />
+        </div>
+    </section>
+    <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+</body>
+</html>
