@@ -25,6 +25,21 @@ let material = {
             "title": "Present Perfect and Past Simple",
             "url": "https://docs.google.com/presentation/d/1cvpJ4nQRLtQAmBGCktK11NhsrES4wgaQ/edit?usp=drive_link&ouid=101549332984118855678&rtpof=true&sd=true"
         },
+        {
+            "class": "Matematika",
+            "title": "Bilangan Berpangkat 1",
+            "url": "https://drive.google.com/file/d/1gQ4D2FGlaS0NKi5iWc5aG3an5go7gXEJ/view?usp=drive_link"
+        },
+        {
+            "class": "Matematika",
+            "title": "Bilangan Berpangkat 2",
+            "url": "https://drive.google.com/file/d/1R4T7i4yKKVt-mTP4QSPOd7hItaC0HxT_/view?usp=drive_link"
+        },
+        {
+            "class": "Matematika",
+            "title": "Bilangan Berpangkat 3",
+            "url": "https://drive.google.com/file/d/1vtupJnskcsALt7d3wjmRfYleWLncGYIn/view?usp=drive_link"
+        }
     ]
 }
 let list_of_subjects = []
