@@ -7,16 +7,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
     <script src="app.js"></script>
   </head>
-  <body onload="generateColumns(list_of_subjects)">
+  <body onload="generateColumns()">
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <p class="title">Welcome!</p>
+        <p class="subtitle">Username (to be made)</p>
+      </div>
+    </section>
+    <br />
     <section class="section">
-        <div class="container" id="container-parent">
-            <h1 class="title">
-                Welcome!
-            </h1>
-            <br />
-            <div class="columns">
-            </div>
+      <div class="container" id="container-parent">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+          <ul id="ul">
+            <li class="is-active"><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+        <br />
+        <div class="columns">
         </div>
+      </div>
     </section>
   </body>
+  
 </html>
